@@ -1,8 +1,10 @@
 body{
+  background: linear-gradient(249deg, #4b0082, #000000);
+    background-size: 400% 400%;
 
-    background: rgb(25,5,40);
-    background: linear-gradient(90deg, rgba(25,5,40,1) 0%, rgba(75,0,130,1) 25%, rgba(75,0,130,1) 85%, rgba(0,0,0,1) 100%);
-
+    -webkit-animation: YcAnimation 8s ease infinite;
+    -moz-animation: YcAnimation 8s ease infinite;
+    animation: YcAnimation 8s ease infinite;
 }
 
 .title{
@@ -53,3 +55,19 @@ left: 50%;
         font-size: 5px;
       }
   }
+
+ @-webkit-keyframes YcAnimation {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes YcAnimation {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes YcAnimation {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
