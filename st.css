@@ -1,10 +1,10 @@
 body{
-  background: linear-gradient(249deg, #4b0082, #000000);
-    background-size: 400% 400%;
+  background: linear-gradient(270deg, #7a7a7a, #000000);
+  background-size: 400% 400%;
 
-    -webkit-animation: YcAnimation 8s ease infinite;
-    -moz-animation: YcAnimation 8s ease infinite;
-    animation: YcAnimation 8s ease infinite;
+  -webkit-animation: YcAnimation 8s ease infinite;
+  -moz-animation: YcAnimation 8s ease infinite;
+  animation: YcAnimation 8s ease infinite;
 }
 
 .title{
@@ -32,10 +32,10 @@ left: 50%;
 
 @media screen and (min-width: 601px) {
 	.h1yc {
-	  font-size: 50px;
+	  font-size: 35px;
 	}
 	.h3yc {
-		font-size: 20px;
+		font-size: 15px;
 	  }
       .hfyc{
         font-size: 10px;
@@ -44,7 +44,7 @@ left: 50%;
   }
   
  
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 601px) {
 	.h1yc {
 	  font-size: 20px;
 	}
@@ -57,17 +57,17 @@ left: 50%;
   }
 
  @-webkit-keyframes YcAnimation {
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
 }
 @-moz-keyframes YcAnimation {
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
 }
 @keyframes YcAnimation {
-    0%{background-position:0% 96%}
-    50%{background-position:100% 5%}
-    100%{background-position:0% 96%}
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
 }
